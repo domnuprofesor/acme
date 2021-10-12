@@ -4,7 +4,8 @@
 The name of the proposed simulation reminded me about the cartoons from childhood with Wile E. Coyote and the Road Runner :) 
 
 ### How to run the project
-In project main dir ```run composer dump-autoload``` and then ```php index.php```
+- In project main dir ```run composer dump-autoload``` and then ```php index.php```
+- For an out of the box experience I included the ```vendor``` folder
 
 ### Observations
 - I would have not integrated the product catalog with the basket. The product catalog is application specific and the basket is
