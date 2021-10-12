@@ -1,0 +1,18 @@
+{
+    "type": "project",
+    "name": "acme/widgets",
+    "authors": [
+        {
+            "name": "Nopcea Francisc",
+            "email": "francisc@nopcea.ro"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src/"
+        }
+    }
+}
