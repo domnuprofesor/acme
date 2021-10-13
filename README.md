@@ -39,5 +39,6 @@ echo NumberUtils::prince_two_digits($basket->total());
 - the ```Catalog``` is only ```read``` by the ```Basket```. To prevent accidental ```writes``` of the ```Catalog``` from the ```Basket```
   we could use an ```immutable``` Catalog but I think it is beyond the scope of the simulation but still worth mentioning
 - the ```Basket::total()``` method first applies the offers which can result in a negative intermediate total. The product prices
-are not altered in any way during or before total() calculations which I think is a neat feature.
+are not altered in any way during or before total() calculations which I think is a neat feature
+- the OOP structure defined works well with a Dependency Injection approach
   
